@@ -1,0 +1,161 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: url(DSC_0774.jpg);
+    background-size: 3000px;
+    background-position: center;
+    filter: blur(10px); 
+    z-index: -1; 
+    
+}
+#temas{
+    display: grid;
+    grid-template-rows: 17% 20% 17% 17% 17%;
+    gap: 20px;
+
+}
+.deportes{
+    background-color: brown;
+    transition: transform 0.3s ease;
+}
+.adolescencia{
+background-color: rgb(83, 83, 255);
+transition: transform 0.3s ease;
+}
+.musica{
+    background-color: brown;
+    transition: transform 0.3s ease;
+}
+.tecnologia{
+    background-color: rgb(83, 83, 255);
+    transition: transform 0.3s ease;
+}
+.colegio{
+    background-color: brown;
+    transition: transform 0.3s ease;
+}
+p{
+    font-size: 50px;
+}
+#todo{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+h1{
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 110px;
+    margin-bottom: 40px;
+}
+h2{
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-top: 0px;
+}
+#sub{
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 20px;
+
+}
+#tide{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color: white;
+    margin:10px;
+    text-shadow: 7px 7px 7px rgba(255, 255, 255, 0.555);
+
+}
+#tiado{
+    font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 100px;
+    color: rgb(252, 133, 87);
+    margin:10px;
+    
+}
+#timu{
+    font-family: "Danfo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "ELSH" 0;
+    font-size: 100px;
+    color: rgb(255, 174, 81);
+    margin:10px;
+
+}
+#tite{
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: white;
+    margin:10px;
+    text-shadow: 3px 0px 0px purple;
+    
+
+
+}
+#tico{
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: rgb(96, 146, 255);
+    margin:10px;
+}
+#conter{
+    background-color: #fffddf;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+a {
+    text-decoration: none;
+}
+
+.deportes:hover {
+    transform: scale(1.1);
+}
+.colegio:hover{
+    transform: scale(1.1);
+}
+.adolescencia:hover{
+    transform: scale(1.1);
+}
+.musica:hover{
+    transform: scale(1.1);
+}
+.tecnologia:hover{
+    transform: scale(1.1);
+}
+#logo{
+    text-align: left;
+}
+img{
+    height: auto;
+    width: 170px;
+    margin: 0px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+img:hover{
+    transform: scale(1.1);
+}
